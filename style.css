@@ -78,6 +78,6 @@ footer {
     margin-right: 100px; /* Adiciona uma margem direita para separar o conteúdo do texto (ajuste conforme necessário) */
     position: absolute;
     left: 0;
-    top: -30px;
+    top: 30px;
     }
 }
