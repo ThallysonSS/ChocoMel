@@ -59,7 +59,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #007bff;
+    color: hsl(0, 0%, 100%);
 }
 
 /* Estilo para o rodapé da página */
@@ -75,7 +75,7 @@ footer {
 
 .marca {
     float: left; /* Define a imagem para flutuar à esquerda */
-    margin-right: 100px; /* Adiciona uma margem direita para separar o conteúdo do texto (ajuste conforme necessário) */
+    margin-right: 110px; /* Adiciona uma margem direita para separar o conteúdo do texto (ajuste conforme necessário) */
     position: absolute;
     left: 0;
     top: 50px;
