@@ -73,6 +73,7 @@ footer {
     width: 100%;
 }
 
-.marca{
-    padding: 20px;
-    margin-right: 600px;
+.marca {
+    float: left; /* Define a imagem para flutuar à esquerda */
+    margin-right: 10px; /* Adiciona uma margem direita para separar o conteúdo do texto (ajuste conforme necessário) */
+}
