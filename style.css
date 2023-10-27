@@ -120,3 +120,17 @@ form input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.Navegação{
+    display: flex;
+    align-items: center;
+}
+
+.marca{
+    width: 100px; /*ajuste  a largura conforme necessário */
+    margin-right: 20px; /*espaço entre a logo e a navegação */
+}
+
+.Informações{
+    list-style: none; /*Remove os marcadores de lista padrão */
+}
