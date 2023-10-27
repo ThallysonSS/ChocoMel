@@ -1,55 +1,59 @@
-<!-- Declaração do tipo de documento -->
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-  <!-- Meta tags que definem o conjunto de caracteres e a escala inicial para dispositivos móveis -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Título da página exibido na aba do navegador -->
-  <title>ChocoMel</title>
-  <!-- Vínculo com a folha de estilo externa -->
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doces Deliciosos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <!-- Cabeçalho da página -->
-  <header>
-    <div id="header-content">
-      <!-- Título principal da página -->
-      <h1>ChocoMel</h1>
-      <img "MarcaDaEmpresa.mhtml" alt="">
-      <!-- Navegação do site -->
-      <nav>
-        <ul>
-          <!-- Links de navegação para seções da página usando âncoras -->
-          <li><a href="#chocomel">ChocoMel</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#produtos"> Produtos</a></li>
-          <li><a href="#Trabalhe conosco">Trabalhe Conosco</a></li>
-          <li><a href="#fale conosco">Fale Conosco</a></li>
+    <header>
+        <h1>Doces Deliciosos</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma empresa dedicada a produzir os doces mais saborosos e irresistíveis. Nossa história de paixão pelo sabor começou há décadas, e continuamos a inovar e criar delícias para alegrar o seu dia.</p>
+    </section>
 
-  <!-- Conteúdo principal da página -->
-  <main>
-    <!-- Título principal da seção -->
-    <h1>Bem-Vindo</h1>
-    <img class="marca" src="marca.png" alt="">
-    <!-- Conteúdo da seção principal -->
-    <h2></h2>
-    <!-- Você pode adicionar mais conteúdo aqui -->
-  </main>
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="product">
+            <img src="doce1.jpg" alt="Doce 1">
+            <h3>Doce 1</h3>
+            <p>Uma descrição do Doce 1.</p>
+        </div>
+        <div class="product">
+            <img src="doce2.jpg" alt="Doce 2">
+            <h3>Doce 2</h3>
+            <p>Uma descrição do Doce 2.</p>
+        </div>
+        <!-- Adicione mais produtos aqui -->
+    </section>
 
-  <!-- Rodapé da página -->
-  <footer>
-    <!-- Texto de rodapé com informações de direitos autorais ou outros detalhes -->
-    <p>© 2023 ChocoMel</p>
-  </footer>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para encomendas ou perguntas.</p>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
 
+    <footer>
+        <p>&copy; 2023 Doces Deliciosos</p>
+    </footer>
 </body>
-
 </html>
