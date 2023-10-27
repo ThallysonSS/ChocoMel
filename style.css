@@ -134,19 +134,12 @@ form input[type="submit"] {
 .Informações{
     list-style: none; /*Remove os marcadores de lista padrão */
 }
-
-.redessociais{
-  list-style: none;
-  padding: 0;
-  display: flex;
-}
-
-.redessociais li{
-    margin-right: 10px; /* espaço entre os ícones*/
-}
-
-.redessociais a{
+img {
+    width: 40px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção original */
+  }
+  
+  a {
     text-decoration: none;
-    color: f#333; /* Cor dos ícones (pode variar) */ 
-    font-size: 20px; /*tamanho do icones (ajuste conforme necessário) */
-}
+    margin-right: 20px; /* Espaçamento entre os logotipos */
+  }
