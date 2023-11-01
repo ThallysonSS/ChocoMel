@@ -67,8 +67,8 @@ section p {
 }
 
 .product img {
-    max-width: 300%;
-    height: auto;
+    max-width: 100%;
+    height: 200px;
 }
 
 .product h3 {
