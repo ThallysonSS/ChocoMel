@@ -144,3 +144,6 @@ img {
     text-decoration: none;
     margin-right: 30px; /* Espaçamento entre os logotipos */
   }
+  .LadoDireito{
+    text-align: center;
+  }
