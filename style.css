@@ -58,8 +58,8 @@ section p {
 
 /* Estilo para os produtos */
 .product {
-    margin: 30px;
-    padding: 30px;
+    margin: 100px;
+    padding: 100px;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 5px;
