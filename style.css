@@ -150,4 +150,5 @@ img {
     width: 500px; /*defina o tamanho desejado para as imagens*/
     height: auto; /*Para manter a proporção da imagem*/
     margin-right: 700px;
+    text-align: center;
  }
