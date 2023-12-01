@@ -149,7 +149,7 @@ img {
  .descrição{
     width: 500px; /*defina o tamanho desejado para as imagens*/
     height: auto; /*Para manter a proporção da imagem*/
-    margin-right: 700px;
+    margin-right: 800px;
     align-items: center;
     display: flex;
  }
