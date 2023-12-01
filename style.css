@@ -149,5 +149,4 @@ img {
  .descrição{
     width: 300px; /*defina o tamanho desejado para as imagens*/
     height: auto; /*Para manter a proporção da imagem*/
-    border: 1px solid #ccc; /*adcione uma borda para destacar as imagens (opcional*/
  }
