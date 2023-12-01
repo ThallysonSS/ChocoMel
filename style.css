@@ -151,4 +151,5 @@ img {
     height: auto; /*Para manter a proporção da imagem*/
     margin-right: 700px;
     align-items: center;
+    display: flex;
  }
