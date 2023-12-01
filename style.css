@@ -64,6 +64,8 @@ section p {
     border: 1px solid #000000;
     border-radius: 5px;
     text-align: left;
+    display: flex;
+    justify-content: space-around;
 }
 
 .product img {
