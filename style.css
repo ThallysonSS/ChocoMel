@@ -149,5 +149,5 @@ img {
  .descrição{
     width: 500px; /*defina o tamanho desejado para as imagens*/
     height: auto; /*Para manter a proporção da imagem*/
-    margin-left: 500px;
+    margin-right: 500px;
  }
