@@ -147,6 +147,6 @@ img {
     margin-right: 30px; /* Espaçamento entre os logotipos */
   }
  .descrição{
-    width: 100px; /*defina o tamanho desejado para as imagens*/
+    width: 500px; /*defina o tamanho desejado para as imagens*/
     height: auto; /*Para manter a proporção da imagem*/
  }
